@@ -2,27 +2,20 @@
 
 [![License: CERN-OHL-S-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--S--2.0-blue)](HARDWARE-LICENSE.txt)
 [![License: Software](https://img.shields.io/badge/Software-See%20License-blue)](SOFTWARE-LICENSE.txt)
-[![Manual](https://img.shields.io/badge/Manual-manual.asimov.inc-orange)](https://manual.asimov.inc)
-[![3D Viewer](https://img.shields.io/badge/View-3D%20Model-lightgrey)](https://static.asimov.inc/asimov/v1/asimov-v1-20260420.html)
 
-**An open-source humanoid robot.**
+Asimov is an open-source humanoid robot that you can build, train and customize.
 
-### [Website](https://asimov.inc) · [Manual](https://manual.asimov.inc) · [Discord](https://discord.gg/HzDfGN7kUw) · [X](https://x.com/asimovinc) · [YouTube](https://youtube.com/@asimovinc)
+<p align="center">
+  <a href="https://asimov.inc">Website</a> ·
+  <a href="https://manual.asimov.inc">Manual</a> ·
+  <a href="https://asimov.inc/diy-kit">DIY Kit</a> ·
+  <a href="https://static.asimov.inc/asimov/v1/asimov-v1-20260420.html">3D Model</a> ·
+  <a href="https://discord.gg/HzDfGN7kUw">Discord</a> ·
+  <a href="https://x.com/asimovinc">X</a> ·
+  <a href="https://forum.menlo.ai">Forum</a>
+</p>
 
-Asimov v1 is a 1.2 m, 35 kg biped with 25 actuated degrees of freedom. This repository contains everything needed to understand, build, simulate, and extend it: mechanical CAD, electrical harness, simulation model, and onboard software.
-
----
-
-## Getting Started
-
-1. **Read the manual first.** [manual.asimov.inc](https://manual.asimov.inc) covers safety, prerequisites, assembly, and software setup. Start here.
-2. **Get the hardware.** [Pre-order the DIY Kit](https://asimov.inc/diy-kit) or pull the [BOM](https://manual.asimov.inc/v1/bom) and source everything yourself.
-3. **Try the simulation.** No hardware needed. Clone the repo and load the MuJoCo model.
-
-```bash
-git clone https://github.com/asimovinc/asimov-v1
-python3 -m mujoco.viewer --mjcf=sim-model/xmls/asimov.xml
-```
+Asimov v1 is a 1.2 m, 35 kg biped with 25 actuated degrees of freedom. This repository contains the mechanical CAD, electrical harness, simulation model, and onboard software to build, simulate, and customize Asimov v1.
 
 ---
 
@@ -43,7 +36,20 @@ python3 -m mujoco.viewer --mjcf=sim-model/xmls/asimov.xml
 | Structural Materials | 7075 aluminium, MJF PA12 nylon |
 | Simulation | MuJoCo |
 
-### What v1 does
+---
+
+## Getting Started
+
+1. **Read the manual first.** [manual.asimov.inc](https://manual.asimov.inc) covers safety, prerequisites, assembly, and software setup. Start here.
+2. **Get the hardware.** [Pre-order the DIY Kit](https://asimov.inc/diy-kit) or pull the [BOM](https://manual.asimov.inc/v1/bom) and source everything yourself.
+3. **Try the simulation.** Built for locomotion policy training and hardware-in-the-loop testing. Clone the repo and load the MuJoCo model.
+
+```bash
+git clone https://github.com/asimovinc/asimov-v1
+python3 -m mujoco.viewer --mjcf=sim-model/xmls/asimov.xml
+```
+
+### What Asimov v1 does
 
 **In scope:**
 - Data collection: camera, audio, IMU, motor joint states
@@ -96,19 +102,6 @@ Full protocol reference: **[Asimov API Manual →](https://manual.asimov.inc/v1/
 
 ---
 
-## Software Stack
-
-| Layer | Function |
-|---|---|
-| Robot Cloud API / CLI | High-level agent control |
-| [Asimov API](https://github.com/asimovinc/asimov-api) | Low-level robot data & commands |
-| Apps | Virtual Asimov digital twin, real-time teleop |
-| Base walking policy | Pre-trained RL locomotion, runs on-robot |
-
-Software manual and open-source code: **[docs.menlo.ai](https://docs.menlo.ai)** · **[github.com/menloresearch](https://github.com/menloresearch)**
-
----
-
 ## Build Your Own
 
 > [!TIP]
@@ -133,7 +126,7 @@ Software manual and open-source code: **[docs.menlo.ai](https://docs.menlo.ai)**
 
 Pull the [BOM](https://manual.asimov.inc/v1/bom), source the parts, fabricate what needs fabricating.
 
-**[Assembly Manual → manual.asimov.inc](https://manual.asimov.inc)**
+**[Assembly Manual →](https://manual.asimov.inc)**
 
 ---
 
@@ -154,20 +147,18 @@ Pull the [BOM](https://manual.asimov.inc/v1/bom), source the parts, fabricate wh
 
 ## Work With Us
 
-**Questions?**
-Open a [GitHub Issue](https://github.com/asimovinc/asimov-v1/issues) or reach us at [hello@asimov.inc](mailto:hello@asimov.inc)
+**Build Questions?**
+Ask in the [forum](https://forum.menlo.ai) or open a [GitHub Issue](https://github.com/asimovinc/asimov-v1/issues) for bugs and contributions.
 
 **Deploying Asimov?**
-[Talk to us →](mailto:hello@asimov.inc)
+[Talk to us →](mailto:bd@menlo.ai)
 
 **Supply chain partner?**
 If you manufacture actuators, structural components, or electronics and want to be part of the Asimov supply chain, reach out.
-[hello@asimov.inc](mailto:hello@asimov.inc)
+[bd@menlo.ai](mailto:bd@menlo.ai)
 
 ---
 
 ## License
 
-Hardware designs are licensed under the **[CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)](HARDWARE-LICENSE.txt)**.
-
-Software is licensed under the terms in **[SOFTWARE-LICENSE.txt](SOFTWARE-LICENSE.txt)**.
+Hardware: [CERN-OHL-S-2.0](HARDWARE-LICENSE.txt) · Software: [LICENSE](SOFTWARE-LICENSE.txt)
