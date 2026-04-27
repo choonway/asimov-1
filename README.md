@@ -43,26 +43,13 @@ Asimov v1 is a 1.2 m, 35 kg biped with 25 actuated degrees of freedom. This repo
 
 ---
 
-## Getting Started
-
-1. **Read the manual first.** [manual.asimov.inc](https://manual.asimov.inc) covers safety, prerequisites, assembly, and software setup. Start here.
-2. **Get the hardware.** [Pre-order the DIY Kit](https://asimov.inc/diy-kit) or pull the [BOM](https://manual.asimov.inc/v1/bom) and source everything yourself.
-3. **Try the simulation.** Built for locomotion policy training and hardware-in-the-loop testing. Clone the repo and load the MuJoCo model.
-
-```bash
-git clone https://github.com/asimovinc/asimov-v1
-python3 -m mujoco.viewer --mjcf=sim-model/xmls/asimov.xml
-```
-
----
-
-## Build Your Own
+## Build your own Asimov
 
 > [!TIP]
-> **DIY Kit:** Everything you need to build Asimov v1, unassembled. $499 deposit to reserve. $15,000 target price. Ships summer 2026. [Pre-order →](https://asimov.inc/diy-kit)
+> **Option 1: DIY Kit:** Everything you need to build Asimov v1, unassembled. $499 deposit to reserve. $15,000 target price. Ships summer 2026. [Pre-order →](https://asimov.inc/diy-kit)
 
 > [!NOTE]
-> **Self-source:** Pull the [BOM](https://manual.asimov.inc/v1/bom) and fabricate everything yourself. [Assembly Manual →](https://manual.asimov.inc)
+> **Option 2: Self-source:** Pull the [BOM](https://manual.asimov.inc/v1/bom) and fabricate everything yourself. [Assembly Manual →](https://manual.asimov.inc)
 
 ### DIY Kit
 
@@ -98,14 +85,9 @@ Pull the [BOM](https://manual.asimov.inc/v1/bom), source the parts, fabricate wh
 
 ---
 
-## Work With Us
+## Work with us
 
-**Build Questions?**
-Ask in the [forum](https://forum.menlo.ai) or open a [GitHub Issue](https://github.com/asimovinc/asimov-v1/issues) for bugs and contributions.
-
-**Deploying Asimov?**
-[Talk to us →](mailto:bd@menlo.ai)
-
-**Supply chain partner?**
-If you manufacture actuators, structural components, or electronics and want to be part of the Asimov supply chain, reach out.
+- **Build questions?**: Ask in the [forum](https://forum.menlo.ai) or open a [GitHub Issue](https://github.com/asimovinc/asimov-v1/issues) for bugs and contributions.
+- **Deploying Asimov?**: [Talk to us →](mailto:bd@menlo.ai)
+- **Supply chain partner?**: If you manufacture actuators, structural components, or electronics and want to be part of the Asimov supply chain, reach out.
 [bd@menlo.ai](mailto:bd@menlo.ai)
