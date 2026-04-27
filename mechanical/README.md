@@ -21,10 +21,3 @@ mechanical/ASV1/
 ## Naming Convention
 
 ![Naming Convention](./naming_convention.png)
-
-## Resources
-
-- [Assembly Manual](https://manual.asimov.inc) — step-by-step build guide, torque specs, and wiring
-- [BOM](https://manual.asimov.inc/v1/bom) — full parts list with sourcing info
-- [DIY Kit](https://asimov.inc/diy-kit) — all parts sourced and ready to assemble
-- [Discord](https://discord.gg/HzDfGN7kUw) — build questions and discussion
