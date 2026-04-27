@@ -1,7 +1,7 @@
 # Asimov v1: Open-Source Humanoid Robot
 
 [![License: CERN-OHL-S-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--S--2.0-blue)](HARDWARE-LICENSE.txt)
-[![License: Software](https://img.shields.io/badge/GPL-20.0-blue)](SOFTWARE-LICENSE.txt)
+[![License: Software](https://img.shields.io/badge/Software-GPL--2.0-blue)](SOFTWARE-LICENSE.txt)
 
 Asimov is an open-source humanoid robot that you can build, train and customize.
 
@@ -29,8 +29,8 @@ Asimov v1 is a 1.2 m, 35 kg biped with 25 actuated degrees of freedom. This repo
 | Degrees of Freedom | 25 actuated + 2 passive |
 | Legs | 6 DOF x 2 + toe x 2 |
 | Arms | 5 DOF x 2 (shoulder pitch/roll/yaw, elbow, wrist yaw) |
-| Torso | 1 DOF waist yaw, 10 W 4 ohm speaker |
-| Head | Quad microphone array, 2MP monocular camera |
+| Torso | 1 DOF waist yaw, 10 W 4 ohm speaker, 6 DOF IMU |
+| Head | 2 DOF neck (neck yaw, neck pitch), Quad microphone array, 2MP monocular camera |
 | CAN Bus | 5 @ 1Mbps + 1 @ 500kbps |
 | Onboard Compute | Raspberry Pi 5 (media + network) + Radxa CM5 (motion control) |
 | Structural Materials | 7075 aluminium, MJF PA12 nylon |
