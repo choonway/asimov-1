@@ -21,5 +21,5 @@ Requires [MuJoCo](https://mujoco.org/) 3.x.
 ## Resources
 
 - [Locomotion Control guide](https://manual.asimov.inc/v1/locomotion) — policy training, control modes, and hardware-in-the-loop setup
-- [Asimov API](https://github.com/asimovinc/asimov-api) — deploy policies to the real robot
+- [Asimov API](https://manual.asimov.inc/v1/api) — deploy policies to the real robot
 - [Discord](https://discord.gg/HzDfGN7kUw) — questions and discussion
