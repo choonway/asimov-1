@@ -78,7 +78,7 @@ Pull the [BOM](https://manual.asimov.inc/v1/bom), source the parts, fabricate wh
 | ✅ | Mechanical CAD — 7 subassemblies |
 | ✅ | MuJoCo simulation model |
 | ✅ | Electrical wiring harness |
-| 🔜 | Electrical schematics & PCB files |
+| ✅ | Electrical schematics & PCB files |
 | 🔜 | Asimov API |
 | 🔜 | Locomotion policy |
 | 🔜 | Mobile app |
